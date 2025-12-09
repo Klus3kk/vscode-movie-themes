@@ -1,0 +1,133 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Blade Runner 2049",
+  "type": "dark",
+
+  "colors": {
+    "foreground": "#8ED0C7",
+    "focusBorder": "#E53C1B",
+
+    "editor.background": "#040411",
+    "editor.foreground": "#8ED0C7",
+    "editorCursor.foreground": "#E9671D",
+    "editor.selectionBackground": "#10304080",
+    "editor.inactiveSelectionBackground": "#10304040",
+    "editor.lineHighlightBackground": "#0A0A1A",
+    "editor.lineHighlightBorder": "#103040",
+    "editor.wordHighlightBackground": "#05799140",
+    "editor.wordHighlightStrongBackground": "#05799160",
+
+    "editorLineNumber.foreground": "#103040",
+    "editorLineNumber.activeForeground": "#E9671D",
+
+    "editorIndentGuide.background": "#10304040",
+    "editorIndentGuide.activeBackground": "#05799170",
+
+    "editorBracketMatch.background": "#3C0E0440",
+    "editorBracketMatch.border": "#E53C1B",
+
+    "editorSuggestWidget.background": "#040411",
+    "editorSuggestWidget.border": "#103040",
+    "editorSuggestWidget.foreground": "#8ED0C7",
+    "editorSuggestWidget.highlightForeground": "#E9671D",
+    "editorSuggestWidget.selectedBackground": "#103040",
+
+    "editorHoverWidget.background": "#040411",
+    "editorHoverWidget.border": "#103040",
+
+    "sideBar.background": "#040411",
+    "sideBar.foreground": "#8ED0C7",
+    "sideBar.border": "#103040",
+
+    "activityBar.background": "#040411",
+    "activityBar.foreground": "#E9671D",
+    "activityBar.activeBorder": "#E53C1B",
+
+    "titleBar.activeBackground": "#040411",
+    "titleBar.activeForeground": "#8ED0C7",
+
+    "statusBar.background": "#040411",
+    "statusBar.foreground": "#8ED0C7",
+    "statusBar.debuggingBackground": "#C1331A",
+
+    "tab.activeBackground": "#103040",
+    "tab.activeForeground": "#8ED0C7",
+    "tab.activeBorderTop": "#E9671D",
+    "tab.inactiveBackground": "#040411",
+    "tab.inactiveForeground": "#922810",
+    "tab.border": "#103040",
+
+    "panel.background": "#040411",
+    "panel.border": "#103040",
+    "panelTitle.activeForeground": "#8ED0C7",
+    "panelTitle.inactiveForeground": "#d24b2d",
+
+    "input.background": "#0A0F1A",
+    "input.foreground": "#8ED0C7",
+    "input.border": "#103040",
+
+    "list.hoverBackground": "#103040",
+    "list.activeSelectionBackground": "#05799160",
+    "list.inactiveSelectionBackground": "#05799130",
+    "list.highlightForeground": "#E9671D",
+
+    "badge.background": "#E53C1B",
+    "badge.foreground": "#040411",
+
+    "button.background": "#E53C1B",
+    "button.foreground": "#040411",
+    "button.hoverBackground": "#E9671D",
+
+    "terminal.background": "#040411",
+    "terminal.foreground": "#8ED0C7",
+    "terminalCursor.foreground": "#E9671D",
+
+    "terminal.ansiBlack": "#040411",
+    "terminal.ansiRed": "#C1331A",
+    "terminal.ansiGreen": "#057991",
+    "terminal.ansiYellow": "#885632",
+    "terminal.ansiBlue": "#103040",
+    "terminal.ansiMagenta": "#761711",
+    "terminal.ansiCyan": "#8ED0C7",
+    "terminal.ansiWhite": "#E9671D"
+  },
+
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": { "foreground": "#e4caca", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["keyword", "storage"],
+      "settings": { "foreground": "#E53C1B", "fontStyle": "bold" }
+    },
+    {
+      "scope": ["string", "constant.character"],
+      "settings": { "foreground": "#E9671D" }
+    },
+    {
+      "scope": ["variable", "identifier"],
+      "settings": { "foreground": "#8ED0C7" }
+    },
+    {
+      "scope": ["entity.name.function"],
+      "settings": { "foreground": "#057991", "fontStyle": "bold" }
+    },
+    {
+      "scope": ["type", "support.type"],
+      "settings": { "foreground": "#885632" }
+    },
+    {
+      "scope": ["constant.numeric"],
+      "settings": { "foreground": "#C1331A" }
+    },
+    {
+      "scope": ["invalid", "error"],
+      "settings": { "foreground": "#761711" }
+    },
+    {
+      "scope": ["punctuation", "meta.brace"],
+      "settings": { "foreground": "#8ED0C7" }
+    }
+  ]
+}

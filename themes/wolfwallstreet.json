@@ -1,0 +1,114 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Wolf of Wall Street – Manhattan Office Edition",
+  "type": "light",
+
+  "colors": {
+    "foreground": "#272018",
+
+    "editor.background": "#F4EDE2",
+    "editor.foreground": "#272018",
+    "editorCursor.foreground": "#E1AF16",
+
+    "editor.selectionBackground": "#FCEB3F33",
+    "editor.inactiveSelectionBackground": "#FCEB3F22",
+
+    // selection
+    "editor.lineHighlightBackground": "#ffedd4c7",
+    // "editor.lineHighlightBorder": "#D0A271",
+
+    "editorLineNumber.foreground": "#6A727D",
+    "editorLineNumber.activeForeground": "#272018",
+
+    "sideBar.background": "#EAE2D4",
+    "sideBar.foreground": "#272018",
+    "sideBar.border": "#C8B8A0",
+
+    "activityBar.background": "#272018",
+    "activityBar.foreground": "#FCEB3F",
+    "activityBar.inactiveForeground": "#ACBCD5",
+    "activityBar.activeBorder": "#FCEB3F",
+    "activityBarBadge.background": "#FCEB3F",
+    "activityBarBadge.foreground": "#272018",
+
+    "titleBar.activeBackground": "#EAE2D4",
+    "titleBar.activeForeground": "#272018",
+    "titleBar.inactiveForeground": "#6A727D",
+
+    "editorGroupHeader.tabsBackground": "#F4EDE2",
+    "editorGroupHeader.tabsBorder": "#C8B8A0",
+
+    "tab.activeBackground": "#F4EDE2",
+    "tab.activeForeground": "#272018",
+    "tab.activeBorderTop": "#E1AF16",
+
+    "panelTitle.activeForeground": "#7F4A15",
+    "panelTitle.inactiveForeground": "#A58660",
+    "panelSectionHeader.foreground": "#7F4A15",
+    "tab.inactiveBackground": "#EAE2D4",
+    "tab.inactiveForeground": "#6A727D",
+
+    "panel.background": "#F4EDE2",
+    "panel.border": "#C8B8A0",
+
+    "statusBar.background": "#272018",
+    "statusBar.foreground": "#FCEB3F",
+
+    "button.background": "#D0A271",
+    "button.hoverBackground": "#B8A27C",
+    "button.foreground": "#272018",
+
+    "input.background": "#FAF7F0",
+    "input.foreground": "#272018",
+    "input.border": "#C8B8A0",
+
+    "editorHoverWidget.background": "#F4EDE2",
+    "editorHoverWidget.border": "#C8B8A0",
+    "editorHoverWidget.foreground": "#272018",
+
+    "terminal.background": "#F4EDE2",
+    "terminal.foreground": "#272018",
+    "terminalCursor.foreground": "#E1AF16",
+
+    "terminal.ansiBlack": "#272018",
+    "terminal.ansiRed": "#463F38",
+    "terminal.ansiGreen": "#B9DFA5",
+    "terminal.ansiYellow": "#FCEB3F",
+    "terminal.ansiBlue": "#6A727D",
+    "terminal.ansiMagenta": "#B8A27C",
+    "terminal.ansiCyan": "#ACBCD5",
+    "terminal.ansiWhite": "#F4EDE2",
+    "icon.foreground": "#7F4A15"
+  },
+
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": { "foreground": "#6A727D99", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["keyword", "storage"],
+      "settings": { "foreground": "#272018", "fontStyle": "bold" }
+    },
+    {
+      "scope": ["string"],
+      "settings": { "foreground": "#7F4A15" }
+    },
+    {
+      "scope": ["variable", "identifier"],
+      "settings": { "foreground": "#272018" }
+    },
+    {
+      "scope": ["entity.name.function"],
+      "settings": { "foreground": "#E1AF16", "fontStyle": "bold" }
+    },
+    {
+      "scope": ["constant.numeric"],
+      "settings": { "foreground": "#463F38" }
+    },
+    {
+      "scope": ["punctuation"],
+      "settings": { "foreground": "#272018" }
+    }
+  ]
+}
