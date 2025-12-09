@@ -1,18 +1,52 @@
 {
-  "name": "vscodetheme",
-  "displayName": "vscodeTheme",
+  "name": "moviethemes",
+  "displayName": "Movie Themes",
   "publisher": "klus3kk",
   "version": "0.0.1",
+  "description": "A collection of VS Code themes inspired by iconic films.",
   "engines": {
     "vscode": "^1.80.0"
   },
   "categories": ["Themes"],
+
+  "icon": "icon.png",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Klus3kk/vscode-movie-themes"
+  },
+
   "contributes": {
     "themes": [
       {
-        "label": "vscodeTheme",
+        "label": "Blade Runner 2049",
         "uiTheme": "vs-dark",
-        "path": "./themes/theme.json"
+        "path": "./themes/br2049.json"
+      },
+      {
+        "label": "The Godfather",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gfather.json"
+      },
+      {
+        "label": "Interstellar",
+        "uiTheme": "vs",
+        "path": "./themes/inter.json"
+      },
+      {
+        "label": "Lost in Translation",
+        "uiTheme": "hc-light",
+        "path": "./themes/lostintrans.json"
+      },
+      {
+        "label": "Vertigo",
+        "uiTheme": "hc-light",
+        "path": "./themes/vertigo.json"
+      },
+      {
+        "label": "The Wolf of Wall Street",
+        "uiTheme": "hc-light",
+        "path": "./themes/wolfwallstreet.json"
       }
     ]
   }
